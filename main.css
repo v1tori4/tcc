@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+/* Todo o design do body (características gerais) */
+body {
+    background-color:#1C1C1C;
+    background-position-x: left;
+    color: #1C1C1C;
+    font-size:40px;
+    font-family: "Quicksand", sans-serif;
+}
+
+/* Design das Tags H2*/
+h2
+{
+    color:#1C1C1C;
+    font-size: 50px;
+    text-align:center;
+    font-family: "Quicksand", sans-serif;
+}
+
+/* Design da barrinha de rolamento*/
+body::-webkit-scrollbar
+{
+    width:0.50rem;
+    font-family: "Quicksand", sans-serif;
+}
+
+body::-webkit-scrollbar-track
+{
+    background: rgba(163, 162, 162, 0.945);
+    font-family: "Quicksand", sans-serif;
+}
+
+body::-webkit-scrollbar-thumb
+{
+    background:rgba(84, 161, 224, 0.808);
+    font-family: "Quicksand", sans-serif;
+}
+
+.texto{
+    margin:20px;
+    text-align:justify;
+    font-size:20px;
+    font-family: "Quicksand", sans-serif;
+}
+
+#menu
+{
+    background-color:rgb(89, 189, 202);
+    margin: 0px;
+    padding: 0px;
+    font-family: "Quicksand", sans-serif;
+}
+
+#menu ul li{
+    display:inline;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#1C1C1C;
+    font-size: 20px;
+    padding-right: 75px;
+    font-family: "Quicksand", sans-serif;
+}
+
+
+#menu ul li a:hover
+{
+    color:rgb(26, 86, 218);
+    /*border-bottom:2px solid rgb(26, 86, 218);*/
+    transform: scale(1.05);
+    font-family: "Quicksand", sans-serif;
+}
+
+b {
+    margin: 10px;
+    padding: 10px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.botao{
+    background-color:rgb(89, 189, 202);
+    width:270px;
+    height:50px;
+    border:none;
+    color:#1C1C1C;
+    border-radius:30px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.botao:hover{
+    transform: scale(1.05);
+    font-family: "Quicksand", sans-serif;
+}
+
+#a{
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
